@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<!--CSSlink,BOOTSTRAPlink-->
+<link rel="stylesheet" type="text/css" href="bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="mainpage.css">
+
+
+<title>| Momentora | About Us |</title>
+
+<!--Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    
+  
+    <script type="text/javascript">
+function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('#aboutbackground').css('top', -(scrolled * 0.25) + 'px');
+}
+    $(window).scroll(function(e){
+    parallax();
+});
+  </script>
+
+</head>
+
+<body>
+
+<!--Bootstrap,jQuery Javascript-->
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="bootstrap.min.js"></script>
+
+<!--OverallWrapper-->
+<div class="col-lg-12 container" id="overallcontainer">
+
+<!-- Header -->
+
+<div id="header">
+    <div class="row" id="headerwrapper">
+      
+      <div class="col-lg-4" id="logoimgwrapper">
+        <div class="col-lg-4 col-lg-offset-4" id="logoimage">
+          <a href="/info/index.html"><%= image_tag "MomentoraLogo.png" %></a>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-3"></div>
+      
+      <div class="col-lg-5 col-md-5" id="navbarwrapper">
+        <div class="col-lg-3 col-md-3">
+          <a href="/info/about.html"><p>About</p></a>
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <a href="/info/feeds.html"><p>HowTo</p></a>
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <a href="/info/contact.html"><p>Contact</p></a>
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <a href="info/menu.html"><p>Menu</p></a>
+        </div>
+      </div>
+      
+    </div>
+    </div>
+
+  
+<!-- /Header -->
+
+<!-- Title -->
+  <div class="row">
+    <div id = "aboutusinfocolour"></div>
+  </div>
+  <div class="row">
+    <div id="aboutbackground"></div>
+      <div class="howtotitlewhitespace"></div>
+      <h1 id="howtotitle">Momentora |  <small>Communities, together</small></h1>
+      <p id="captiontext"> About us .doc </p>
+      <div class="howtotitlewhitespace"></div>
+  </div>
+
+<!-- /Title -->
+
+<!-- Information FEATURETTE W/O IMG -->
+
+  <div id="aboutusinfowrapper">
+
+    <div class="row" id="aboutusinfo1">
+      <div class = "aboutwhitespace"></div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-8" style="text-align: center;">
+        <h2 class="featurette-heading">Who <small>are we?</small></h2>
+        <p class="aboutuslead">We are the Momentora team who aims to bring the community together through the web which as a result created Momentora, built with love. Finding friends and reading feeds from your nearby area, we help you to form relations with your neighbours closer than ever. </p>
+      </div>
+      <div class="col-lg-2"></div>
+      <div class = "aboutwhitespace"></div>
+    </div>
+  
+
+    <div class="row" id="aboutusinfo2">
+      <div class="aboutbackgroundf"></div>
+      <div class = "aboutwhitespace"></div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-8" style="text-align: center;">
+        <h2 class="featurette-heading">What <small>we aim for</small></h2>
+        <p class="aboutuslead">We aren't the typical kind of people who try to bring people under one roof, but the kind of people who aim to provide the means for neighbours to bond and increase the community spirit. At the end of the day, the aim is simple, to provide the means for the community to bond. </p>
+      </div>
+      <div class="col-lg-2"></div>
+      <div class = "aboutwhitespace"></div>
+    </div>
+ 
+
+    <div class="row" id="aboutusinfo3">
+      <div class = "aboutwhitespace"></div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-8" style="text-align: center;">
+        <h2 class="featurette-heading">How <small>we accomplish</small></h2>
+        <p class="aboutuslead">Through the use of modern web app developement, we made something that helps the community. Frequent beta updates help to improve and add features into Momentora, making life changing moments worth sharing.</p>
+      </div>
+      <div class="col-lg-2"></div>
+      <div class = "aboutwhitespace"></div>
+    </div>
+    
+  </div>
+  
+<!-- /Slider -->
+
+
+<!--OverallWrapper-->
+</div>
+
+</body>
+</html>

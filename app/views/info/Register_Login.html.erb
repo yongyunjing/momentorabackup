@@ -1,0 +1,17 @@
+<div class = "homecontainer">
+<div class = "container" id = "loginorregister">
+  <div class = "row">
+    <% if user_signed_in? %>
+    Signed in as <%= current_user.email %>.
+    <br/>
+    <div id = "logoutoredit">
+      <%= link_to 'Edit', edit_user_registration_path %>
+      <br/>
+      <%= link_to 'Sign out', destroy_user_session_path, :method => :delete %>
+    </div>
+    <% else %>
+    <%= link_to 'Register', new_user_registration_path %> or <%= link_to 'Sign in', new_user_session_path %>
+    <% end %>
+  </div>
+</div>
+</div>

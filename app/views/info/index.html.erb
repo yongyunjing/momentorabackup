@@ -1,0 +1,231 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!--CSSlink,BOOTSTRAPlink-->
+<link rel="stylesheet" type="text/css" href="bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="mainpage.css">
+  <link rel="stylesheet" type="text/css" href="simpletextrotator.css">
+<title>| Momentora |</title>
+
+<!--Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    
+<!--Bootstrap,jQuery Javascript, and +++ -->
+<script src="jquery-1.10.2.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="jquery.simple-text-rotator.js"></script>
+  
+  <!-- Index parallax DO NOT EDIT -->
+  <script type="text/javascript">
+function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('#backgroundindex').css('top', -(scrolled * 0.25) + 'px');
+}
+    $(window).scroll(function(e){
+    parallax();
+});
+  </script>
+    <script type="text/javascript">
+function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('#backgroundindexf').css('top', -(scrolled * 0.25) + 'px');
+}
+    $(window).scroll(function(e){
+    parallax();
+});
+  </script>
+  <!-- /DO NOT EDIT -->
+  <!-- Textrotate -->
+  <script type="text/javascript">
+
+	    $(".rotate").textrotator({
+	      animation: "flipUp",
+	      speed: 2000
+	    });
+	  </script>
+  <!-- /Textrotate -->
+
+</head>
+
+<body>
+
+<!--Site-->
+<div class="col-lg-12 col-md-12" id="overallcontainer">
+
+<!--Header-->
+<div id="header">
+    <div class="row" id="headerwrapper">
+      
+      <div class="col-lg-4" id="logoimgwrapper">
+        <div class="col-lg-4 col-lg-offset-4" id="logoimage">
+          <a href="/info/index.html"><%= image_tag "MomentoraLogo.png" %></a>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-3"></div>
+      
+      <div class="col-lg-5 col-md-5" id="navbarwrapper">
+        <div class="col-lg-3 col-md-3">
+          <a href="/info/about.html"><p>About</p></a>
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <a href="/info/feeds.html"><p>HowTo</p></a>
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <a href="/info/contact.html"><p>Contact</p></a>
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <a href="/info/menu.html"><p>Menu</p></a>
+        </div>
+      </div>
+      
+    </div>
+    </div>
+  
+<!-- initial info -->
+
+  <div id="initialinfo">
+          <div id="backgroundindex"></div>
+    <div class="row" id="initialinforow">
+      <div class="col-lg-2"></div>
+      <div class="Col-lg-8" id="initialinfowrapper">
+      
+        <div id="initialinfowhitespacetop"></div>
+        <div id="initialinfotitle">
+          <h2>M<small>omentora</small> </h2>
+        </div>
+        <div id="initialinfocaption">
+          <h2><span class="rotate"> Share & Bond , Events with Community & Friends , Feeds from social sites </span></h2>
+        </div>
+        <div id="initialinfobuttonwhitespace"></div>
+        <div class="button">
+          <a href="/info/Register_Login.html">Login/Register</a>
+        </div>
+        <div id="initialinfowhitespacebottom"></div>
+        
+      </div>
+        
+      <div class="Col-lg-2"></div>
+      
+    </div>
+  </div>  
+
+<!-- /initial info -->
+
+<!-- initialinfo BETA         ==============//DOESNT WORK FOR NOW//============ -->
+
+<!--  <script>
+      $('.slider').glide({
+          autoplay: 5000,
+          arrows: 'body',
+          nav: 'body'
+      }); 
+  </script>
+
+  <div id="initialinfo">
+    <div class="row" id="initialinforow">
+    
+      <div class="slider">
+        <ul class="slides">
+        
+          <li class="slide row">
+            <div class="col-lg-2"></div>
+            <div class="Col-lg-8" id="initialinfowrapper">
+              <div id="initialinfowhitespacetop"></div>
+                <div id="initialinfotitle">
+                  <h2><small>It has</small> arrived</h2>
+                </div>
+              <div id="initialinfowhitespacebottom"></div>
+           </div>
+           <div class="Col-lg-2"></div>
+          </li>
+          
+          <li class="slide row">
+            <div class="col-lg-2"></div>
+            <div class="Col-lg-8" id="initialinfowrapper">
+              <div id="initialinfowhitespacetop"></div>
+                <div id="initialinfocaption">
+                  <p>Momentora is now going to enhance community spirit more than ever</p>
+                </div>
+              <div id="initialinfowhitespacebottom"></div>
+            </div>
+            <div class="col-lg-2"></div>
+          </li>
+          
+          <li class="slide row">
+           <div class="col-lg-2"></div>
+           <div class="Col-lg-8" id="initialinfowrapper">
+             <div id="initialinfowhitespacetop"></div>
+               <div class="button">
+                 <a href="#">Login/Register</a>
+               </div>
+             <div id="initialinfowhitespacebottom"></div>
+           </div>
+           <div class="Col-lg-2"></div>
+          </li>
+          
+        </ul>
+      </div>
+    
+    </div>
+  </div> -->
+
+
+<!-- /initialinfo BETA  ==============//DOESNT WORK FOR NOW//============-->
+  
+<!-- FEATURETTES -->
+  
+  <div class="row">
+  <div class="featurette" id="featurette1">
+    <div id="mainpagewhitespacetop"></div>
+    <!-- <img class="featurette-image img-circle pull-right" src="images/FeaturettePic1.png"> -->
+    <h2 class="featurette-heading">Aiming |<small> To bond.</small></h2>
+    <p class="lead">Momentora aims to bond the people within your circle of friends, forming a community.</p>
+    <br />
+    <br />
+    <div class="buttonfeaturette"><a href="#">Learn More</a></div>
+    <div id="mainpagewhitespacebottom"></div>
+  </div>
+  </div>
+
+
+  <div class="row">
+  <div class="featurette" id="featurette2">
+    <div id="mainpagewhitespacetop"></div>
+    <!-- <img class="featurette-image img-circle pull-left" src="images/FeaturettePic2.png"> -->
+    <h2 class="featurette-heading" id="featurette2heading">Experience |<small> Astonishing.</small></h2>
+    <p class="lead" id="featurette2lead">Features packed and easy to use. It could become your must have app for you and among the community. Leaving behind the astonishing experience</p>
+    <br />
+    <br />
+    <div class="buttonfeaturette"><a href="#">Learn More</a></div>
+    <div id="mainpagewhitespacebottom"></div>
+  </div>
+  </div>
+
+
+  <div class="row">
+  <div class="featurette" id="featurette3">
+    <div id="mainpagewhitespacetop"></div>
+    <!-- <img class="featurette-image img-circle pull-right" src="images/FeaturettePic3.png"> -->
+    <div id="backgroundindexf"></div>
+    <h2 class="featurette-heading">World |<small> Around.</small></h2>
+    <p class="lead">Virtual world isn't it. Enjoy the true meaning of Momentora outside with your friends, neightbours, and the community.</p>
+    <br />
+    <br />
+    <div class="buttonfeaturette"><a href="/info/feeds.html">Learn More</a></div>
+    <div id="mainpagewhitespacebottom"></div>
+  </div>
+  </div>
+
+  <!-- /END THE FEATURETTES -->           
+</div>
+
+
+</body>
+</html>
