@@ -513,12 +513,8 @@ footer {
   z-index: -1;
 }
 
-#contact1 {
+#contactcontentwrapper {
   background-color: #F2F3F4;
-}
-
-#contact2 {
-  background-color: #00FFFF;
 }
 
 /* Footer */
