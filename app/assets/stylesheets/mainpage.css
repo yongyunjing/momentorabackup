@@ -127,7 +127,7 @@ table {
 } */
 
 #backgroundindex {
-  background: url('http://momentoraheroku.s3.amazonaws.com/scenerywide.jpg') no-repeat;
+  background: url('scenerywide.jpg') no-repeat;
   position: fixed;
   width: 100%;
   height: 300%;
