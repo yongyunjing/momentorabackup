@@ -117,23 +117,11 @@ table {
 
 /*initialinfo*/
 
-/* Old one
 #initialinforow {
-	background: url(SildshowPICa.png);
+	background: url(images/scenerywide.jpg);
 	background-size: 100%;
 	height: 684px;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-} */
-
-#backgroundindex {
-  background: url('scenerywide.jpg') no-repeat;
-  position: fixed;
-  width: 100%;
-  height: 300%;
-  top:0;
-  left:0;
-  z-index: -1;
+  background-position: 100% 0 fixed;
 }
 
 #initialinfo {
@@ -197,33 +185,11 @@ table {
     -chrome-transition-duration:0.25s;
 }
 
-/*Whitespaces*/
-
-#mainpagewhitespacetop {
-  height: 300px;
-}
-
-#mainpagewhitespacebottom {
-  height: 400px;
-}
-
-/* Whitespaces */
 /* Featurettes*/
-
-#backgroundindexf {
-  background: url('scenerywide.jpg') no-repeat;
-  position: fixed;
-  width: 100%;
-  height: 300%;
-  top:0;
-  left:0;
-  z-index: -1;
-}
 
 .featurette {
 	padding-left: 40px;
 	padding-right: 40px;
-  text-align: center;
 }
 
 .featurette-divider {
@@ -255,14 +221,6 @@ table {
 	font-family: Josefin Sans, Arial;
 }
 
-#featurette2heading {
-  color:#464545;  
-}
-
-#featurette2lead {
-   color: #CAC8C8; 
-}
-
 .buttonfeaturette a {
 	font-family: Josefin Sans;
 	color: black;
@@ -287,21 +245,9 @@ table {
     -chrome-transition-duration:0.25s;
 }
 
-#featurette1 {
-  background-color: #E6DFFC;
-}
-
-/*#featurette2 {
-  background-color: #FCCCD4;
-}*/
-
-#featurette3 {
-  background-color: #CEF2DC;
-}
-
 /*footer*/
 
-footer {
+.footer {
 	background-color: #D9D9D9;
 	padding: 30px;
 	font-family: Poiret One, Verdana, Geneva, sans-serif;
@@ -316,30 +262,6 @@ footer {
 
 #aboutusinfowrapper {
 	text-align: justify;
-}
-
-#aboutbackground {
-  background: url('6.jpg') no-repeat;
-  position: fixed;
-  width: 100%;
-  height: 300%;
-  top:0;
-  left:0;
-  z-index: -1;
-}
-
-#aboutbackground {
-  background: url('antelopecanyon.jpg') no-repeat;
-  position: fixed;
-  width: 100%;
-  height: 300%;
-  top:0;
-  left:0;
-  z-index: -1;
-}
-
-.aboutwhitespace {
-  height: 400px;
 }
 
 #aboutustitlewrapper {
@@ -360,14 +282,26 @@ footer {
 }
 
 #aboutusinfo1 {
-	background-color: #CDFDEF;
+	background-color: #E9E9E9;
+	height: 684px;
 }
 
 #aboutusinfo2 {
+	background-color: #3FF;
+	height: 684px;
 }
 
 #aboutusinfo3 {
 	background-color: #6FC;
+	height: 684px;
+}
+
+#aboutusinfowhitespace {
+	height: 100px;
+}
+
+#aboutusinfowhitespacein {
+	height: 250px;
 }
 
 .aboutuslead {
@@ -381,13 +315,6 @@ footer {
 	height: 35px;
 }
 
-#howtotitle small {
-  color: #787575; 
-}
-
-#captiontext {
-  color: grey;
-}
 
 
 /*==================================================================================
@@ -397,16 +324,6 @@ footer {
 #headervisibilityhowto {
 	height: 35px;
 	background-color: #999;
-}
-
-#howtobackground {
-  background: url('3.jpg') no-repeat;
-  position: fixed;
-  width: 100%;
-  height: 300%;
-  top:0;
-  left:0;
-  z-index: -1;
 }
 
 .howtowhitespace {
@@ -501,24 +418,4 @@ footer {
     -webkit-transition-duration: 0.25s;
     -moz-transition-duration: 0.25s;
     -chrome-transition-duration:0.25s;
-}
-
-#contactbackground {
-  background: url('9.jpg') no-repeat;
-  position: fixed;
-  width: 100%;
-  height: 300%;
-  top:0;
-  left:0;
-  z-index: -1;
-}
-
-#contactcontentwrapper {
-  background-color: #F2F3F4;
-}
-
-/* Footer */
-
-.footer {
-  text-align:center;
 }
